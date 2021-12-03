@@ -1,27 +1,17 @@
-.card{
-    background: rgb(194, 122, 81);
-    background: linear-gradient(36deg, rgb(119, 119, 218) 8%, rgb(35, 65, 87) 89%);
+.caixa{
+    background-color: #3F51B5;
 }
-
-.background{
-    background-image: url("../../assets/pexels-photo-606541.jpeg");
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.color-input{
-    background-color: white;
-    color: white;
-    border-color: white;
-    border-radius: 20px;
-    height: 30px;
+.tutulo{
+    color: white !important;
+    font-weight: bold !important;
 }
 
 .botao{
-    border-radius: 20px!important;
-    justify-content: 'center';
-    text-align: "center";
+    border-color: white;
+    background-color: #3F51B5 !important;
+    color: white !important;
+}
+
+.postagens{
+    background-color: white;
 }

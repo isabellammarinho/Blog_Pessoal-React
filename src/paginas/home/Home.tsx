@@ -1,45 +1,30 @@
-import { Box } from '@mui/system';
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import { Grid, Button } from '@mui/material';
-import "./Home.css";
+import {Typography, Box, Grid, Button} from '@material-ui/core';
+import './Home.css';
 
 function Home() {
-
-
     return (
-        <Grid container className="background">
-            <Grid item xs={12}>
-
-                <Box display="flex" justifyContent="center" alignItems="center" height="80vh" >
-                    <Box className="card" width={270} height="50vh" borderRadius={5} marginTop={12} display="center" justifyContent="center" alignItems="center">
-                        <Box >
-                            <Typography variant="h4" color="white" align="center">
-                                Login
-                            </Typography>
-
-                            <form >
-                                <Box marginY={4}>
-                                    <input type="text" className="color-input"
-                                        placeholder="Email" />
-                                </Box>
-
-                                <Box marginY={4}>
-
-                                    <input type="password" className="color-input"
-                                        placeholder="Senha" />
-                                </Box>
-                                <Button variant="contained" color="primary" className="botao">
-                                    Login
-                                </Button>
-                            </form>
-                        </Box>
+        <>
+            <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa'>
+                <Grid alignItems="center" item xs={6}>
+                    <Box paddingX={20} >
+                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo(a)!</Typography>
+                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>expresse aqui os seus pensamentos e opiniões!</Typography>
                     </Box>
-                </Box>
+                    <Box display="flex" justifyContent="center">
+                        <Box marginRight={1}>
+                        </Box>
+                        <Button variant="outlined" className='botao'>Ver Postagens</Button>
+                    </Box>
+                </Grid>
+                <Grid item xs={6} >
+                    <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px" />
+                </Grid>
+                <Grid xs={12} className='postagens'>
+                </Grid>
             </Grid>
-
-        </Grid>
-    )
+        </>
+    );
 }
 
-export default Home
+export default Home;
