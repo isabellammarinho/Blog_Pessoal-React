@@ -1,7 +1,13 @@
-.corsor{
+.cursor{
     cursor: pointer;
-    color:white;
+    color: white;
 }
+
 .text-decorator-none{
     text-decoration: none;
 }
+.nav{
+    background:rgb(43, 12, 94);
+
+}
+
