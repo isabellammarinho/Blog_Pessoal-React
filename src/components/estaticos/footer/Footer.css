@@ -2,14 +2,16 @@
     background:rgb(43, 12, 94);
     height: 120px;
 }
-.redes{
-    font-size: 60 !important;
-    color: white;
-}
 .box2{
     background:rgb(43, 12, 94);
     height: 60px; 
 }
-.texto{
+
+.redes{
+    font-size: 60px !important;
+    color: white;
+}
+
+.textos{
     color: white;
 }
